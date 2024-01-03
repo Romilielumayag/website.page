@@ -1,0 +1,102 @@
+<!doctype html>
+<html> 
+ <head> 
+  <title>e>Login Page</title> 
+  <style>
+        body {
+            background-image: url("/storage/emulated/0/htmlfinalexam/804cf5b075b6292f3286b18cc8e76758.jpg");
+            font-family: Arial, times new roman;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+           
+        }
+
+        .login-container {
+            background-image: url("/storage/emulated/0/htmlfinalexam/pngtree-a-mountain-range-with-clouds-above-it-at-sunset-image_13279796.jpg");
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            text-align: center;
+            width: 350px;
+            height: 220px;
+            border: 4px groove orange;
+            font-family: times new roman;
+            text-shadow: black ;
+            font-size: 15px;
+        }
+
+        .login-container h2 {
+            color: brown;
+            text-align: center;
+           
+        }
+
+
+        input[type="text"], input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 2px inset brown;
+            color:  purple;
+            border-radius: 3px;
+            background-color: #f2f2f2;
+            text-aligned: center;
+            
+        }
+
+        .login-button {
+            background-color: brown;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .login-button:hover {
+            background-color: brown;
+            
+            
+        }
+         
+       .forgot-password {
+            text-align: right;
+        }
+        p class{ 
+        color: brown;
+        }
+        
+    </style> 
+ </head> 
+ <body> 
+  <div class="login-container"> 
+   <h1>Sign up</h1> 
+   <form action="/storage/emulated/0/htmlfinalexam/homepagefinal.html"> 
+    <input type="text" placeholder="Email or phone" required>
+    <input type="password" placeholder="Password" required>
+   <br>
+   <br>
+   <input type="submit" class="login-button" value="Login">   
+   </form> 
+   <p class="forgot-password"><a href="forgot_password.html4">Forgot Password?</a></p> 
+  </div> 
+       <script>
+       func();
+       var username = document.getElementById("username").value;
+       var password = document.getElementById("password").value;
+       if (username == "page02@" && password == "123456"){     
+       alert ("Login Successfully");
+       window.location.href="noname(3).html"); 
+       }
+       else{
+       alert ("invalid!");
+       }
+       }
+       
+       </script>   
+ </body>
+</html>
